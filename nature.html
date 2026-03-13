@@ -30,11 +30,14 @@
             display: inline-block;
             border-radius: 20px;
             font-size: 17px;
+            transition:
+                transform 0.4s ease,
+                box-shadow 0.4s ease;
+            cursor: pointer;
         }
 
         span:hover {
             transform: scale(1.05);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
         }
 
         .gallery {
@@ -48,12 +51,16 @@
             width: 100%;
             height: 280px;
             object-fit: cover;
-            border-radius: 10px
+            border-radius: 10px;
+            transition:
+                transform 0.4s ease,
+                box-shadow 0.4s ease;
+            cursor: pointer;
         }
 
         .gallery img:hover {
             transform: scale(1.05);
-            box-shadow: 0 15px 35px rgba(255, 255, 255, 0.5);
+            box-shadow: 0 15px 35px rgba(255, 221, 108, 0.5);
         }
 
         a {
@@ -62,6 +69,22 @@
             display: block;
             text-align: center;
             margin-bottom: 30px
+        }
+
+        .lightbox {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.92);
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+        }
+
+        .lightbox img {
+            max-width: 90%;
+            max-height: 85%;
+            border-radius: 12px;
         }
     </style>
 </head>
@@ -75,6 +98,21 @@
         <img src="./chh5.jpg">
         <img src="./chh11.jpg">
     </div>
+
+    <div class="lightbox" id="lightbox"><img src=""></div>
+
+    <script>
+        const imgs = document.querySelectorAll(".gallery img");
+        const lightbox = document.getElementById("lightbox");
+        const lightboxImg = lightbox.querySelector("img");
+        imgs.forEach((img) =>
+            img.addEventListener("click", () => {
+                lightbox.style.display = "flex";
+                lightboxImg.src = img.src;
+            }),
+        );
+        lightbox.addEventListener("click", () => (lightbox.style.display = "none"));
+    </script>
 </body>
 
 </html>

@@ -30,6 +30,10 @@
             display: inline-block;
             border-radius: 20px;
             font-size: 17px;
+            transition:
+                transform 0.4s ease,
+                box-shadow 0.4s ease;
+            cursor: pointer;
         }
 
         span:hover {
@@ -97,7 +101,7 @@
     </div>
 
     <div class="lightbox" id="lightbox"><img src=""></div>
-    
+
     <script>
         const imgs = document.querySelectorAll(".gallery img");
         const lightbox = document.getElementById("lightbox");
