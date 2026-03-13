@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature | Chhaya Photography</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: Poppins;
+            background: #0f0f14;
+            color: #eee
+        }
+
+        h1 {
+            text-align: center;
+            padding: 40px 20px;
+            font-family: 'Playfair Display';
+            color: #d4af37
+        }
+
+        span {
+            background: #e0e0e0;
+            padding: 5px 10px;
+            margin: 4px;
+            display: inline-block;
+            border-radius: 20px;
+            font-size: 17px;
+        }
+
+        span:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+            padding: 0 10% 60px
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 10px
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 35px rgba(255, 255, 255, 0.5);
+        }
+
+        a {
+            color: #d4af37;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            margin-bottom: 30px
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Nature Photography</h1>
+    <a href="index.html"><span>← Back to Home</span></a>
+    <div class="gallery">
+        <img src="./chh8.jpg">
+        <img src="./chh18.jpg">
+        <img src="./chh5.jpg">
+        <img src="./chh11.jpg">
+    </div>
+</body>
+
+</html>
