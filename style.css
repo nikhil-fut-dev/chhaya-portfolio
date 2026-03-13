@@ -18,13 +18,13 @@ h2 {
 }
 
 nav {
-  position: fixed;
+  display: flex;
   top: 0;
   width: 100%;
   background: rgba(15, 15, 20, 0.85);
   backdrop-filter: blur(8px);
-  padding: 14px 0;
-  text-align: center;
+  padding: 14px;
+  justify-content: center;
   z-index: 1000;
 }
 
@@ -36,7 +36,8 @@ nav a {
 }
 
 nav a:hover {
-  color: #a8985c;
+  color: #4734f3;
+  text-decoration: underline;
 }
 
 header {
