@@ -45,6 +45,15 @@
     display: block;
   }
 
+  .hero {
+    height: 70vh;
+  }
+
+  .hero-img {
+    object-fit: cover;
+    object-position: center;
+  }
+
   /* About Section */
   .about {
     padding: 20px;
