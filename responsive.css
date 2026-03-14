@@ -44,6 +44,10 @@
   .hero-text {
     display: block;
   }
+
+  .hero-content {
+    display: none;
+  }
   
   .mobile-img {
     display: block;
