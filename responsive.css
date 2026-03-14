@@ -8,27 +8,33 @@
   }
 
   /* Navbar */
-  .nav-list {
-    position: absolute;
-    top: 70px;
-    left: 0;
-    width: 100%;
-    background: black;
-    flex-direction: column;
-    align-items: center;
-    display: none;
-  }
-
-  .nav-list li {
-    margin: 15px 0;
-  }
 
   .menu-toggle {
     display: block;
   }
 
+  .nav-list {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    background: black;
+
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    
+
+    gap: auto;
+    padding: 13px;
+  }
+
   .nav-list.active {
     display: flex;
+  }
+
+  .nav-list li {
+    white-space: nowrap;
   }
 
   /* Hero Section */

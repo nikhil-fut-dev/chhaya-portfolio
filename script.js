@@ -27,15 +27,8 @@ ba.addEventListener("mousemove", (e) => {
 });
 
 const toggle = document.getElementById("menu-toggle");
-const nav = document.getElementById("nav-links");
+const nav = document.getElementById("nav-list");
 
-toggle.addEventListener("click", () => {
-  nav.classList.toggle("active");
-});
-
-const menu = document.getElementById("mobile-menu");
-const navList = document.querySelector(".nav-list");
-
-menu.addEventListener("click", () => {
-  navList.classList.toggle("active");
+toggle.addEventListener("click", function(){
+nav.classList.toggle("active");
 });
