@@ -15,10 +15,10 @@
 
   .nav-list {
     position: absolute;
-    top: 55px;
+    top: 45px;
     left: 0;
     width: 100%;
-    background: black;
+    background: transparent;
 
     display: none;
     flex-direction: row;
@@ -43,8 +43,6 @@
 
   .mobile-img {
     display: block;
-    background: rgba(0, 0, 0, 0.4);
-    padding: 15px;
   }
 
   /* About Section */
