@@ -17,33 +17,43 @@ h2 {
   letter-spacing: 1px;
 }
 
-nav {
+/* Navbar */
+.navbar {
   display: flex;
-  top: 0;
-  background: rgba(15, 15, 20, 0.85);
-  backdrop-filter: blur(8px);
-  padding: 14px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: black;
 }
 
-span img {
-  display: flex;
-  width: 2.5rem;
+/* LOGO */
+.logo img {
+  height: 50px;
 }
-span img:hover {
+
+/* NAV LINKS */
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.nav-list a:hover {
+  color: gold;
+}
+
+/* HAMBURGER */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  color: white;
   cursor: pointer;
-}
-
-nav a {
-  color: #eee;
-  margin: 0 18px;
-  text-decoration:none;
-  justify-content: end;
-  font-weight: 500;
-}
-
-nav a:hover {
-  color: #4734f3;
-  text-decoration: underline;
 }
 
 header {

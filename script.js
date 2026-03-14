@@ -32,3 +32,10 @@ const nav = document.getElementById("nav-links");
 toggle.addEventListener("click", () => {
   nav.classList.toggle("active");
 });
+
+const menu = document.getElementById("mobile-menu");
+const navList = document.querySelector(".nav-list");
+
+menu.addEventListener("click", () => {
+  navList.classList.toggle("active");
+});
