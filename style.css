@@ -166,7 +166,8 @@ h2 {
 }
 
 .category-links {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   margin-bottom: 40px;
 }
 
