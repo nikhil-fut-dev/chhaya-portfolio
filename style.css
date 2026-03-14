@@ -93,30 +93,31 @@ h2 {
 }
 
 .hero-text {
+  margin-top: 60px;
   display: flex;
   text-align: center;
   color: white;
-  padding: px 30px;
-  background: #566c68;
+  padding: 10px 30px;
+  background: #566c68e7;
   border-radius: 12px;
 }
 
 .hero-text h1 {
-  font-size: 30px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .hero-text p {
-  font-size: 15px;
+  font-size: 11px;
 }
 
 /* BUTTON */
 
 .hero-btn {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 2px;
   padding: 5px 10px;
-  background: gold;
+  background: #d4af37;
   color: black;
   text-decoration: none;
   border-radius: 5px;
