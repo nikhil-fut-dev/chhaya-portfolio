@@ -1,0 +1,76 @@
+/* Mobile Responsive CSS */
+
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  /* Navbar */
+  nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  nav a {
+    color: #eee;
+    margin: 6px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  /* Hero Section */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hero img {
+    width: 180px;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  /* About Section */
+  .about {
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Skills */
+  .skills-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  /* Projects */
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  /* Contact */
+  .contact {
+    padding: 20px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+  }
+}
