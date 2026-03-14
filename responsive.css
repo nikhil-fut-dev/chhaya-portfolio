@@ -41,6 +41,10 @@
     display: none;
   }
 
+  .hero-text {
+    display: block;
+  }
+  
   .mobile-img {
     display: block;
   }
