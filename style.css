@@ -17,7 +17,6 @@ h2 {
   letter-spacing: 1px;
 }
 
-/* Navbar */
 .navbar {
   position: sticky;
   top: 0;
@@ -29,7 +28,6 @@ h2 {
   z-index: 1000;
 }
 
-/* LOGO */
 .logo img {
   height: 45px;
 }
@@ -38,7 +36,7 @@ h2 {
   cursor: pointer;
 }
 
-/* NAV LINKS */
+
 .nav-list {
   display: flex;
   list-style: none;
@@ -55,15 +53,12 @@ h2 {
   color: gold;
 }
 
-/* HAMBURGER */
 .menu-toggle {
   display: none;
   font-size: 28px;
   color: white;
   cursor: pointer;
 }
-
-/* HERO SECTION */
 
 .hero {
   position: relative;
@@ -75,7 +70,6 @@ h2 {
   overflow: hidden;
 }
 
-/* BACKGROUND IMAGE */
 
 .hero {
   position: relative;
@@ -113,7 +107,6 @@ h2 {
   font-size: 11px;
 }
 
-/* BUTTON */
 
 .hero-btn {
   display: inline-block;
@@ -130,36 +123,34 @@ h2 {
   transition: opacity 0.3s ease;
 }
 
-/* second heto-text  */
 
 .hero-content {
-margin-top: 410px;
-text-align:center;
-color:white;
-padding:10px 60px;
-background: #566c68e7;
-border-radius:12px;
+  margin-top: 410px;
+  text-align: center;
+  color: white;
+  padding: 10px 60px;
+  background: #566c68e7;
+  border-radius: 12px;
 }
 
 .hero-content .aa {
-font-size:48px;
-margin-bottom:10px;
+  font-size: 48px;
+  margin-bottom: 10px;
 }
 
 .hero-content .bb {
-font-size:20px;
+  font-size: 20px;
 }
 
-/* BUTTON */
 
 .hero-btnn {
-display:inline-block;
-margin-top:20px;
-padding:10px 25px;
-background:#d4af37;
-color:black;
-text-decoration:none;
-border-radius:5px;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: #d4af37;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 .hero-btnn:hover {
@@ -167,7 +158,6 @@ border-radius:5px;
   transition: opacity 0.3s ease;
 }
 
-/* Mobile image hide by default */
 
 .hero-text {
   display: none;
@@ -269,7 +259,6 @@ h2 {
   border-radius: 12px;
 }
 
-/* BEFORE AFTER */
 .before-after {
   position: relative;
   max-width: 700px;
@@ -300,7 +289,6 @@ h2 {
   cursor: ew-resize;
 }
 
-/* PRICING */
 .pricing {
   display: flex;
   flex-wrap: wrap;
@@ -321,7 +309,6 @@ h2 {
   margin-bottom: 10px;
 }
 
-/* TESTIMONIALS */
 .testimonials {
   max-width: 900px;
   margin: auto;
@@ -334,7 +321,6 @@ h2 {
   color: #ccc;
 }
 
-/* BLOG */
 .blog-preview {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
